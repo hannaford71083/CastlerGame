@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CASTLER</title>
+
+    <script src="jquery-1.10.2.js"></script>
+    <script src="castlerCustom.js"></script>
+</head>
+    
+<body>
+	
+	<canvas id="myCanvas" width="288" height="288"></canvas>
+	</br>
+		<span id="userInterface">
+		  <button id ="finishGo" type="button" >Finish Go</button>
+		</span>
+		<!--input type="button" onclick="free()" value="Button One" /-->
+		<p>Player 	: <span id ="playerSpan"></span></p>
+		<p>Status 	: <span  id ="statusSpan"></strong></p>
+		<p>Gold 	: <span  id ="goldSpan"></strong></p>
+		<form>
+			<input type="radio" id="actionRadioFarm" name="action" value="farm" checked>
+			<label for="actionRadioFarm">Farm</label><br>
+			<!--input type="radio" id="actionRadioCastle" name="action" value="castle">
+			<label for="actionRadioCastle">Castle</label><br-->
+			<input type="radio" id="actionRadioKnight" name="action" value="knight">
+			<label for="actionRadioKnight">Knight</label><br>
+		</form> 
+	
+	
+	<!--Use the UP, DOWN, LEFT and RIGHT keys to scroll
+	<br />
+	Scroll X: <span id="scrollx">0</span><br />
+	Scroll Y: <span id="scrolly">0</span>
+	-->
+</body>
+
+</html>
+
+<!-- By David Hannaford, 2014 -->
